@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+li {
+	display: inline;
+	border: 2px solid orange;
+	border-radius: 25px 25px 25px 25px;
+}
+
+body {
+	background-color: #FDDBE0;
+}
+
+h1 {
+	text-align: centre;
+}
+
+a {
+	text-decoration: none;
+	padding-right: 10px;
+	font-size: 1.2em;
+	font-family: Arial;
+}
+
+table {
+	border: 1px solid blue;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	border-collapse: collapse;
+}
+
+tr, td, th {
+	border: 1px solid blue;
+	text-align: center;
+}
+
+label {
+	color: blue;
+	font: 20px;
+	font-size: 1.2em;
+	font-family: fantasy;
+}
+
+input[type='text']:HOVER {
+	font-size: 1.1em;
+	border: 2px solid blue;
+}
+
+tr:nth-child(2n+1):th tr {
+	background-color: magenta;
+}
